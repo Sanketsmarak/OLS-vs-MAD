@@ -9,7 +9,6 @@ nMin=0;nMax=5;lambda=5e-4;
 synthSeis=synthSeis/norm(synthSeis);
 Wavelet=Wavelet/norm(Wavelet);
 nSample=size(synthSeis,1);
-%% 2D synthetic section
 
 %% Basis Pursuit Least Squares Solution
 alpha=100;
